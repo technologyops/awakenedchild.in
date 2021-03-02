@@ -1,12 +1,12 @@
-    <footer class="section section-footer">
-      <div class="docs-footer container grid-lg" id="copyright">
-        <p>
-         <a href="#">About Us</a> · 
-         <a href="#">Contact Us</a> · 
-         <a href="#">Privacy Policy</a> · 
-         <a href="#">Terms &amp; Conditions</a></p>
-        <p>Designed and built with <span class="text-error">&hearts;</span> &copy; 2021 All Rights Reserved.</p>
-      </div>
-    </footer>
+<footer class="section section-footer">
+  <div class="docs-footer container grid-lg" id="copyright">
+    <p>
+      <a href="/aboutus.html">About Us</a> · 
+      <a href="mailto:awakenedchild.in@gmail.com?subject=from Our Site">Contact Us</a> · 
+      <a href="/termsofuse.html">Terms of Use</a>
+    </p>
+    <p>Designed and built with <span class="text-error">&hearts;</span> &copy; 2021 All Rights Reserved.</p>
+  </div>
+</footer>
   </body>
 </html>
