@@ -9,6 +9,7 @@
 <body>
 
 <div class="container grid-lg">
+<img src="/images/favicon-96x96.png" class="p-centered img-responsive">
 <ul class="tab tab-block">
   <li class="tab-item active">
     <a href="/">Home</a>
