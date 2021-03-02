@@ -8,6 +8,20 @@
 </head>
 <body>
 
+<div class="container grid-lg">
+<ul class="tab tab-block">
+  <li class="tab-item active">
+    <a href="/">Home</a>
+  </li>
+  <li class="tab-item">
+    <a href="/aboutus.html">About Us</a>
+  </li>
+  <li class="tab-item">
+    <a href="mailto:awakenedchild.in@gmail.com?subject=from Our Site">Contact Us</a>
+  </li>
+</ul>
+</div>
+
 <div class="section section-hero bg-gray">
   <div class="grid-hero container grid-lg text-center" id="overview">
     <h2>awakened child</h2>
@@ -48,7 +62,6 @@
         </div>
       </div>
     </div>
-
     <div class="card">
       <div class="card-header h5"><span class="card-title">How schools can adopt and implement Awakening?</span></div>
       <div class="card-body">
@@ -59,6 +72,6 @@
         <p><a class="btn btn-primary btn-lg mr-2" href="mailto:awakenedchild.in@gmail.com?subject=from Our Site">Email Us</a></p>
       </div>
     </div>
-
   </div>
 </div>
+
