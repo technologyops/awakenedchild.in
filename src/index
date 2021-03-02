@@ -24,10 +24,15 @@
 </div>
 
 <div class="section section-hero bg-gray">
-  <div class="grid-hero container grid-lg text-center" id="overview">
-    <h2>Awakening</h2>
-    <p>Awakening is based on Swami Vivekananda’s idea of the goal of education- ‘We want that education by which character is formed, strength of mind is increased, the intellect is expanded, and by which one can stand by one’s own feet.’</p>
-<p>It aims to prepare young minds to adopt certain noble values in their lives voluntarily and thereby respond to life’s challenges better. Awakening empowers a child to develop self-belief, self-reliance, self-control and good character. Unless these traits are well developed, mere book-learning can cause more harm than good. Every child has these qualities in a ‘seed’ form and gardeners, in the form of trained facilitators and parents can lovingly enable the seed to sprout, take root and grow into a powerful tree of loving and harmonious human being.</p>
+  <div class="grid-hero container grid-lg text-center">
+    <div class="card">
+      <div class="card-header h5"><span class="card-title">Awakening</span></div>
+      <div class="card-body">
+        <p>Awakening is based on Swami Vivekananda’s idea of the goal of education- ‘We want that education by which character is formed, strength of mind is increased, the intellect is expanded, and by which one can stand by one’s own feet.’</p>
+        <img src="/images/logo.jpg" class="img-responsive p-centered">
+        <p>It aims to prepare young minds to adopt certain noble values in their lives voluntarily and thereby respond to life’s challenges better. Awakening empowers a child to develop self-belief, self-reliance, self-control and good character. Unless these traits are well developed, mere book-learning can cause more harm than good. Every child has these qualities in a ‘seed’ form and gardeners, in the form of trained facilitators and parents can lovingly enable the seed to sprout, take root and grow into a powerful tree of loving and harmonious human being.</p>
+      </div>
+    </div>
   </div>
 </div>
 
