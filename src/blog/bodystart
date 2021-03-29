@@ -1,0 +1,22 @@
+</head>
+<body>
+
+<div class="container grid-lg">
+<a href="/"><img src="/images/favicon-96x96.png" class="p-centered img-responsive"></a>
+<ul class="tab tab-block">
+  <li class="tab-item">
+    <a href="/aboutus.html">About Us</a>
+  </li>
+  <li class="tab-item active">
+    <a href="/blog/">Blog</a>
+  </li>
+  <li class="tab-item">
+    <a href="/faq.html">FAQ</a>
+  </li>
+</ul>
+</div>
+
+<div class="section section-updates bg-gray">
+  <div class="container grid-lg">
+    <div class="card">
+      <div class="card-header">
