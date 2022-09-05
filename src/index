@@ -9,8 +9,10 @@
 <body>
 
 <div class="container grid-lg">
-<a href="/"><img src="/images/favicon-96x96.png" class="p-centered img-responsive"></a>
 <ul class="tab tab-block">
+  <li class="tab-item">
+    <a href="/"><img src="/images/favicon-96x96.png" class="img-responsive" width="96" height="96"></a>
+  </li>
   <li class="tab-item">
     <a href="/aboutus.html">About Us</a>
   </li>
@@ -18,7 +20,13 @@
     <a href="/blog/">Blog</a>
   </li>
   <li class="tab-item">
+    <a href="/gallery/">Gallery</a>
+  </li>
+  <li class="tab-item">
     <a href="/faq.html">FAQ</a>
+  </li>
+  <li class="tab-item">
+    <a href="/"><img src="/images/logo.jpg" class="img-responsive float-right" width="96" height="96"></a>
   </li>
 </ul>
 </div>
@@ -29,17 +37,10 @@
       <div class="card-header h2"><span class="card-title">Awakening</span></div>
       <div class="card-body">
         <p>Awakening is based on Swami Vivekananda’s idea of the goal of education- ‘We want that education by which character is formed, strength of mind is increased, the intellect is expanded, and by which one can stand by one’s own feet.’</p>
-        <img src="/images/logo.jpg" class="img-responsive p-centered">
+        <img src="/images/swamivivekananda.png" class="img-responsive p-centered">
         <p>It aims to prepare young minds to adopt certain noble values in their lives voluntarily and thereby respond to life’s challenges better. Awakening empowers a child to develop self-belief, self-reliance, self-control and good character. Unless these traits are well developed, mere book-learning can cause more harm than good. Every child has these qualities in a ‘seed’ form and gardeners, in the form of trained facilitators and parents can lovingly enable the seed to sprout, take root and grow into a powerful tree of loving and harmonious human being.</p>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="section section-features bg-primary text-light text-center">
-  <div class="container grid-lg">
-    <h3>Education is the manifestation of the perfection already in man</h3>
-	<p class="text-secondary">- Swami Vivekananda</p>
   </div>
 </div>
 
@@ -52,10 +53,13 @@
     <div class="columns">
       <div class="column col-6 col-xs-12">
         <div class="card">
-          <div class="card-header h5"><span class="card-title">Program Development</span></div>
+          <div class="card-header h5"><span class="card-title">Values and Responsible Choice Making</span></div>
           <div class="card-body">
-            <p>Awakening was envisioned by a senior monk of Ramakrishna Mission, Delhi, and subsequently developed by a team consisting of qualified resource persons from Ramakrishna Mission, Delhi, child psychologists, program developers and story writers. The program content and the delivery tools were researched, packaged and integrated with the help of domain experts and with ELF Learning Solutions, Chennai, the Knowledge Partner of the AWAKENING Program.</p>
-            <p>After a considerable amount of research, stakeholder consultation and piloting, “Awakening” has been developed to bring out the very best in young children, without any compulsion or prejudice.</p>
+<p>Values are introduced through relatable stories where children of the same age deal with real life situations.</p>
+<p>Gentle probing questions in a non-judgmental way encourages engagement of children with the ideas through peer and personal learning.</p>
+<p>Classroom activities help children understand their emotions better and enable acceptance of the value through individual and group action.</p>
+<p>Home activities enable bonding with parents and other family members and result in greater re-enforcement of the value.</p>
+<p>Each year the children engage more deeply with the Value till it becomes a part of their character.</p>
           </div>
         </div>
       </div>
