@@ -8,3 +8,6 @@ cd blog/
 ./update.sh
 cd ..
 
+cd gallery/
+./update.sh
+cd ..
