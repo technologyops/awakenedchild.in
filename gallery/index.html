@@ -115,6 +115,15 @@
   width: 100%;
   z-index: 1;
 }
+.slides figcaption {
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+  flex-self: end;
+  font-size: 1.5rem;
+  background-color: rgba(255,255,255,0.5);
+  padding: .5rem;
+}
 </style>
 </head>
 <body>
@@ -145,34 +154,48 @@
 <section class="carousel" aria-label="carousel" Tabindex="0">
   <a class="carousel__skip-link" href="#skip-link">Skip the Carousel</a>
   <div class="slides">
-    <div class="slides-item slide-1" id="slide-1" aria-label="slide 1 of 14" tabindex="0">    <img src="/images/2022/09/04/apeejay_model_town-22_october_2021-being_respectful-word_web-p2.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-2" id="slide-2" aria-label="slide 2 of 14" tabindex="0">    <img src="/images/2022/09/04/apeejay_noida_sc_16_a-2_feb_2022-2_Feb_2022-doing_our_best-p4.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-3" id="slide-3" aria-label="slide 3 of 14" tabindex="0">    <img src="/images/2022/09/04/apeejay_panchsheel-27_jul_2022-p18.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-4" id="slide-4" aria-label="slide 4 of 14" tabindex="0">    <img src="/images/2022/09/04/apeejay_panchsheel-27_jul_2022-p4.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-5" id="slide-5" aria-label="slide 5 of 14" tabindex="0">    <img src="/images/2022/09/04/baseline_survey-bbhyuday_global_school_nagpur_maharashtra.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-6" id="slide-6" aria-label="slide 6 of 14" tabindex="0">    <img src="/images/2022/09/04/cherrapunjee-meghalaya.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-7" id="slide-7" aria-label="slide 7 of 14" tabindex="0">    <img src="/images/2022/09/04/class_observation-arth_foundation.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-8" id="slide-8" aria-label="slide 8 of 14" tabindex="0">    <img src="/images/2022/09/04/enabling_session-jaspal_kaur_school-23-04-2022.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-9" id="slide-9" aria-label="slide 9 of 14" tabindex="0">    <img src="/images/2022/09/04/home_activity-apeejay_noida_sec16a-up-16_sept_2021-class1-p3.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-10" id="slide-10" aria-label="slide 10 of 14" tabindex="0">    <img src="/images/2022/09/04/home_activity-aps_sankar_vihar-11_may_2022-reyaansh_n_manonkar-cl-5a-p1.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-11" id="slide-11" aria-label="slide 11 of 14" tabindex="0">    <img src="/images/2022/09/04/ppeejay_noida_sec16A-up-16_sept_2021-class1.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-12" id="slide-12" aria-label="slide 12 of 14" tabindex="0">    <img src="/images/2022/09/04/ramakrishna_mission-cherrapunji-meghalaya-16_dec_2021-p1.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-13" id="slide-13" aria-label="slide 13 of 14" tabindex="0">    <img src="/images/2022/09/04/role_play-apeejay_panchsheel-10_aug_2022-p3.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
-    <div class="slides-item slide-14" id="slide-14" aria-label="slide 14 of 14" tabindex="0">    <img src="/images/2022/09/04/sliverline_prestige_school_070722.jpg" class="img-responsive" width="1200" height="900"></img>
-    </div>
+    <figure class="slides-item slide-1" id="slide-1" aria-label="slide 1 of 14" tabindex="0">    <img src="/images/2022/09/04/apeejay_panchsheel-27_jul_2022-p18.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Class Activity-Apeejay Panchsheel, Delhi-July 2022</figcaption>    
+    </figure>
+    <figure class="slides-item slide-2" id="slide-2" aria-label="slide 2 of 14" tabindex="0">    <img src="/images/2022/09/04/baseline_survey-bbhyuday_global_school_nagpur_maharashtra.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Baseline Survey-Abhyuday Global School, Nagpur, Maharashtra-November 2021</figcaption>    
+    </figure>
+    <figure class="slides-item slide-3" id="slide-3" aria-label="slide 3 of 14" tabindex="0">    <img src="/images/2022/09/04/cherrapunjee-meghalaya.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Class Observation-Cherrapunjee-Meghalaya-March 2022</figcaption>    
+    </figure>
+    <figure class="slides-item slide-4" id="slide-4" aria-label="slide 4 of 14" tabindex="0">    <img src="/images/2022/09/04/class_observation-arth_foundation.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Class Activity-Arth Foundation-Gurugram, Haryana-</figcaption>    
+    </figure>
+    <figure class="slides-item slide-5" id="slide-5" aria-label="slide 5 of 14" tabindex="0">    <img src="/images/2022/09/04/enabling_session-jaspal_kaur_school-23-04-2022.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Enabling Session-Jaspal Kaur School, Delhi</figcaption>    
+    </figure>
+    <figure class="slides-item slide-6" id="slide-6" aria-label="slide 6 of 14" tabindex="0">    <img src="/images/2022/09/04/home_activity-apeejay_noida_sec16a-up-16_sept_2021-class1-p3.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Home activity-Apeejay Noida-16 September 2021</figcaption>    
+    </figure>
+    <figure class="slides-item slide-7" id="slide-7" aria-label="slide 7 of 14" tabindex="0">    <img src="/images/2022/09/04/home_activity-aps_sankar_vihar-11_may_2022-reyaansh_n_manonkar-cl-5a-p1.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Home Activity-APS Sankar Vihar-May 2022</figcaption>    
+    </figure>
+    <figure class="slides-item slide-8" id="slide-8" aria-label="slide 8 of 14" tabindex="0">    <img src="/images/2022/09/04/ramakrishna_mission-cherrapunji-meghalaya-16_dec_2021-p1.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Training-Ramakrishna Mission-Cherrapunjee-Meghalaya-December 2021</figcaption>    
+    </figure>
+    <figure class="slides-item slide-9" id="slide-9" aria-label="slide 9 of 14" tabindex="0">    <img src="/images/2022/09/04/role_play-apeejay_panchsheel-10_aug_2022-p3.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Role play-Apeejay Panchsheel-August 2022</figcaption>    
+    </figure>
+    <figure class="slides-item slide-10" id="slide-10" aria-label="slide 10 of 14" tabindex="0">    <img src="/images/2022/09/04/sliverline_prestige_school_070722.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Class Observation-Sliverline Prestige School-7 July 2022</figcaption>    
+    </figure>
+    <figure class="slides-item slide-11" id="slide-11" aria-label="slide 11 of 14" tabindex="0">    <img src="/images/2022/09/04/apeejay_model_town-22_october_2021-being_respectful-word_web-p2.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Word Web-Apeejay Model Town-Jalandhar, Punjab-22 October 2021</figcaption>    
+    </figure>
+    <figure class="slides-item slide-12" id="slide-12" aria-label="slide 12 of 14" tabindex="0">    <img src="/images/2022/09/04/apeejay_noida_sc_16_a-2_feb_2022-2_Feb_2022-doing_our_best-p4.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Class Activity-Apeejay Noida,UP-February 2022</figcaption>    
+    </figure>
+    <figure class="slides-item slide-13" id="slide-13" aria-label="slide 13 of 14" tabindex="0">    <img src="/images/2022/09/04/ppeejay_noida_sec16A-up-16_sept_2021-class1.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Home Activity-Apeejay Noida, UP-September 2021</figcaption>    
+    </figure>
+    <figure class="slides-item slide-14" id="slide-14" aria-label="slide 14 of 14" tabindex="0">    <img src="/images/2022/09/04/apeejay_panchsheel-27_jul_2022-p4.jpg" class="img-responsive" width="1200" height="900"></img>
+    <figcaption>Class Activity-Apeejay Panchsheel-July 2022</figcaption>    
+    </figure>
   </div>
   <div class="carousel__nav">
     <a class="slider-nav" href="#slide-1" aria-label="Go to slide 1">1</a>
