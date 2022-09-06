@@ -1,68 +1,31 @@
-#!/bin/sh
-
-for f in index termsofuse aboutus faq; do
-  cat header $f footer > ../$f.html
-done
-
-cd blog/
-./update.sh
-cd ..
-
-cd gallery/
-./update.sh
-cd ..
-
-OUTFILE=../resources/index.html
-cat header > $OUTFILE
-cat <<EOF >> $OUTFILE
-  <meta name="author" content="awakenedchild">
-  <link rel="canonical" href="https://awakenedchild.in/resources/">
-  <meta property="og:url" content="https://awakenedchild.in/resources/">
-  <meta name="description" content="Resources">
-  <meta property="og:description" content="Resources">
-  <meta property="og:title" content="Resources">
-  <title>awakened child: Resources</title>
-</head>
-<body>
-
-<div class="container grid-lg">
-<ul class="tab tab-block">
-  <li class="tab-item">
-    <a href="/"><img src="/images/favicon-96x96.png" class="img-responsive" width="96" height="96"></a>
-  </li>
-  <li class="tab-item">
-    <a href="/aboutus.html">About Us</a>
-  </li>
-  <li class="tab-item">
-    <a href="/blog/">Blog</a>
-  </li>
-  <li class="tab-item">
-    <a href="/gallery/">Gallery</a>
-  </li>
-  <li class="tab-item">
-    <a href="/faq.html">FAQ</a>
-  </li>
-  <li class="tab-item">
-    <a href="/programdevelopment/">Program Development</a>
-  </li>
-  <li class="tab-item">
-    <a href="/resources/">Resources</a>
-  </li>
-  <li class="tab-item">
-    <a href="/"><img src="/images/logo.jpg" class="img-responsive float-right" width="96" height="96"></a>
-  </li>
-</ul>
-</div>
-
-<div class="container grid-lg">
-<img src="/resources/PIC_FOR_THE_WEBSITE-AWKENEDCHILD.IN.jpg" class="img-responsive p-centered">
-</div>
-EOF
-cat footer >> $OUTFILE
-
-OUTFILE=../programdevelopment/index.html
-cat header > $OUTFILE
-cat <<EOF >> $OUTFILE
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+    <link rel="icon" href="/images/favicon-32x32.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="robots" content="index, follow">
   <meta name="author" content="awakenedchild">
   <link rel="canonical" href="https://awakenedchild.in/programdevelopment/">
   <meta property="og:url" content="https://awakenedchild.in/programdevelopment/">
@@ -224,5 +187,23 @@ home, like picking up his sticks etc. Her son told her that he learnt in Awakeni
     </div>
   </div>
 </div>
-EOF
-cat footer >> $OUTFILE
+<footer class="section section-footer">
+  <div class="docs-footer container grid-lg" id="copyright">
+    <br>
+    <p>
+      <a href="/">Home</a> · 
+      <a href="/aboutus.html">About Us</a> · 
+      <a href="/blog/">Blog</a> · 
+      <a href="/gallery/">Gallery</a> · 
+      <a class="btn btn-primary" href="mailto:awakenedchild.in@gmail.com?subject=from Our Site">awakenedchild.in@gmail.com</a> · 
+      <a href="/faq.html">FAQ</a> · 
+      <a href="/programdevelopment/">Program Development</a>
+      <a href="/resources/">Resources</a> · 
+      <a href="/termsofuse.html">Terms</a>
+    </p>
+    <p>Designed and built with <span class="text-error">&hearts;</span><br>
+    &copy; 2022 All Rights Reserved.</p>
+  </div>
+</footer>
+  </body>
+</html>
