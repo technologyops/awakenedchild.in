@@ -55,7 +55,7 @@ cat <<EOF >> $OUTFILE
 </div>
 
 <div class="container grid-lg">
-<a href="http://rkmvalues.org/moodle><img src="/resources/PIC_FOR_THE_WEBSITE-AWKENEDCHILD.IN.jpg" class="img-responsive p-centered"></a>
+<a href="http://rkmvalues.org/moodle"><img src="/resources/PIC_FOR_THE_WEBSITE-AWKENEDCHILD.IN.jpg" class="img-responsive p-centered"></a>
 </div>
 EOF
 cat footer >> $OUTFILE
